@@ -1,18 +1,22 @@
 export const PARTNERS = [
     {
         name: "Vertiv",
+        duration: 4,
         url: "https://img1.wsimg.com/isteam/ip/ed19a0df-c36a-4caa-a7ea-695b84cecb2c/blob-0007.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:500,h:200,cg:true",
     },
     {
         name: "MDaemon Techonologies",
+        duration: 2,
         url: "https://img1.wsimg.com/isteam/ip/ed19a0df-c36a-4caa-a7ea-695b84cecb2c/MDaemon-Technologies_badge-250x250_white.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:200,h:200,cg:true",
     },
     {
         name: "Sophos Silver Partner",
+        duration: 5,
         url: "https://img1.wsimg.com/isteam/ip/ed19a0df-c36a-4caa-a7ea-695b84cecb2c/blob-0002.png/:/rs=h:100,cg:true,m",
     },
     {
         name: "Veeam ProPartner",
+        duration: 3,
         url: "https://img1.wsimg.com/isteam/ip/ed19a0df-c36a-4caa-a7ea-695b84cecb2c/blob-0006.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:439,h:197,cg:true",
     },
 ];
