@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaSquareXTwitter, FaLinkedin } from "react-ico
 export default function Social() {
     return (
         <div className="text-center py-6">
-            <h2 className="text-cyan-700 font-semibold text-2xl lg:text-4xl mb-4">SOCIAL</h2>
+            <h2 className="text-neutral-300 font-semibold text-2xl lg:text-4xl mb-4">SOCIAL</h2>
             {/* Assume you have FontAwesome or similar for icons */}
             <div className="m-8 flex items-center gap-4 text-2xl justify-center">
                 <a className="mx-2" href="#" target="_blank" rel="noopener noreferrer">
