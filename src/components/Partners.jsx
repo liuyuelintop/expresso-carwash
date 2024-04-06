@@ -17,7 +17,11 @@ const iconVariants = (duration) => ({
 export default function Partners() {
     return (
         <div className="mt-8">
-            <h2 className="text-center text-2xl sm:text-3xl text-cyan-800 mb-6">Our Partners</h2>
+            <motion.h2
+                whileInView={{ opacity: 1, y: 0 }}
+                initial={{ opacity: 0, y: -100 }}
+                transition={{ duration: 1 }}
+                className="text-center text-2xl sm:text-3xl text-cyan-800 mb-6">Our Partners</motion.h2>
             <motion.div
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: -100 }}

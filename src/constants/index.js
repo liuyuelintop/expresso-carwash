@@ -38,3 +38,26 @@ export const ABOUT_US = [
         url: "https://img1.wsimg.com/isteam/stock/DxeZmJo/:/rs=w:1200,h:600,cg:true,m/cr=w:1200,h:600",
     },
 ];
+
+export const SERVICES = [
+    {
+        title: "IT Consulting",
+        description: " Orion Computers has been specializing in business networking and computer needs since 1995. Over that time we have developed an expertise for helping clients determine their network and computer needs, supply the necessary hardware, installation, training and maintenance. We can also specify and build computer systems to your needs. We develop a close working relationship with our clients, and by understanding their needs, we ensure the best possible solution to their problem or inquiry. ",
+        url: "https://img1.wsimg.com/isteam/stock/BpD2gwm/:/rs=w:1200,h:600,cg:true,m/cr=w:1200,h:600"
+    },
+    {
+        title: "Managed Services",
+        description: "Our service includes a comprehensive consult to help identify gaps and opportunities, a comprehensive report that includes a project plan with timelines and milestones, a cost analysis, and a schedule. We also offer a suite of quality products that will help you get there quickly and smoothly. ",
+        url: "https://img1.wsimg.com/isteam/stock/359/:/rs=w:1200,h:600,cg:true,m/cr=w:1200,h:600",
+    },
+];
+
+export const CONTACT = {
+    intro: "Everyone company needs support, connectivity, and security. However, the specific needs of your company are unique to you. Send us a message, and we can help you find the services that best fit your needs.",
+    companyName: "Expresso Carwash Pty Ltd",
+    address: "246 Nicholson St, Fitzroy, VIC 3065",
+    position: [-37.797271994781674, 144.9750920349377],
+    salesPhone: "(03) 8415 1400 ",
+    supportPhone: "(03) 8415 1400 ",
+    email: "example@gmail.com",
+};
