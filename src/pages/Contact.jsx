@@ -12,8 +12,9 @@ export default function Contact() {
     return (
         <div className="text-white p-8 flex flex-col justify-center items-center min-h-screen">
             <div className="max-w-2xl w-full">
-                <h2 className="text-4xl font-bold text-center mb-10">CONTACT US</h2>
                 <Hero hero={HERO[1]} />
+                <h2 className="text-3xl font-bold text-center mb-6">CONTACT US</h2>
+                <ContactForm />
                 <Policy />
                 <ContactInfo />
                 <MapSection position={position} />
