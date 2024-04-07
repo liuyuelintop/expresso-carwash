@@ -10,7 +10,7 @@ const MapSection = ({ position }) => (
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             />
             <Marker position={position}>
-                <Popup>Orion Computers Pty Ltd</Popup>
+                <Popup>Expresso Carwash Pty Ltd</Popup>
             </Marker>
         </MapContainer>
     </div>

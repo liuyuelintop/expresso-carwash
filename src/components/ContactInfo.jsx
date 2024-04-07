@@ -15,11 +15,22 @@ const ContactInfo = () => (
             </div>
             <div className='flex flex-col gap-1 text-center'>
                 <p>Sales and Accounts</p>
-                <p>Ph: <span className='text-cyan-600 hover:underline'>{CONTACT.salesPhone}</span></p>
+                <p>Ph:
+                    <a
+                        href={`tel:{CONTACT.salesPhone}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className='mx-1 text-cyan-600 hover:underline'>{CONTACT.salesPhone}</a>
+                </p>
             </div>
             <div className='flex flex-col gap-1 text-center'>
                 <p>IT Support</p>
-                <p>Ph: <span className='text-cyan-600 hover:underline'>{CONTACT.supportPhone}</span></p>
+                <p>Ph:
+                    <a href={`tel:{CONTACT.supportPhone}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className='mx-1 text-cyan-600 hover:underline'>{CONTACT.supportPhone}</a>
+                </p>
             </div>
         </div>
         <OpenHours />
