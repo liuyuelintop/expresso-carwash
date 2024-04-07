@@ -32,6 +32,12 @@ const ContactInfo = () => (
                         className='mx-1 text-cyan-600 hover:underline'>{CONTACT.supportPhone}</a>
                 </p>
             </div>
+            <div className='flex flex-col gap-1 text-center'>
+                <p>IT Support</p>
+                <p>Email:
+                    <span className='mx-1 text-cyan-600 hover:underline'>{CONTACT.email}</span>
+                </p>
+            </div>
         </div>
         <OpenHours />
     </div>

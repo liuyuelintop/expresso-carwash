@@ -43,13 +43,14 @@ export const SERVICES = [
     {
         title: "IT Consulting",
         description: " Orion Computers has been specializing in business networking and computer needs since 1995. Over that time we have developed an expertise for helping clients determine their network and computer needs, supply the necessary hardware, installation, training and maintenance. We can also specify and build computer systems to your needs. We develop a close working relationship with our clients, and by understanding their needs, we ensure the best possible solution to their problem or inquiry. ",
-        url: "https://img1.wsimg.com/isteam/stock/BpD2gwm/:/rs=w:1200,h:600,cg:true,m/cr=w:1200,h:600"
+        url: "https://global.fujitsu/-/media/Project/Fujitsu/Fujitsu-HQ/capabilities/digital-transformation/au-digital-transformation-blog-3.jpg?rev=c3dc0155dd294b5e8887c560c2c8aa8d&hash=19FE75646775885C6961D3C4F668B35E",
     },
     {
         title: "Managed Services",
         description: "Our service includes a comprehensive consult to help identify gaps and opportunities, a comprehensive report that includes a project plan with timelines and milestones, a cost analysis, and a schedule. We also offer a suite of quality products that will help you get there quickly and smoothly. ",
-        url: "https://img1.wsimg.com/isteam/stock/359/:/rs=w:1200,h:600,cg:true,m/cr=w:1200,h:600",
+        url: "https://www.itswitch.com.au/wp-content/uploads/2014/12/Infrastructure-Managed-Services-ITswitch.jpg",
     },
+
 ];
 
 export const CONTACT = {
@@ -61,3 +62,21 @@ export const CONTACT = {
     supportPhone: "(03) 8415 1400 ",
     email: "example@gmail.com",
 };
+
+export const HERO = [
+    {
+        title: "EXPERIENCED, PERSONALIZED IT CONSULTING AND SUPPORT",
+        url: "https://kantata.marketing/wp-content/uploads/2021/08/consulting-firm-project-management.jpg",
+        description: "Let us build the infrastructure for your success!",
+    },
+    {
+        url: "https://www.aiconsultinggroup.com.au/wp-content/uploads/2023/10/Data-Science-Consulting.jpeg",
+    },
+    {
+        url: "https://www.bain.com/contentassets/e340cee60c5c4c008e19e009ba3a37f2/20145-generative-ai-1950x650.jpg?width=1950&height=650&mode=crop",
+    },
+    {
+        url: "https://t3.ftcdn.net/jpg/05/80/62/68/240_F_580626868_EcDFHJ3lhEWqSdKlG0WfJJhSqymhnJHT.jpg",
+    }
+];
+

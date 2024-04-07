@@ -1,5 +1,5 @@
 import ServiceCard from '../components/ServiceCard'; // 假设您有一个ServiceCard组件
-import { SERVICES } from '../constants';
+import { SERVICES, HERO } from '../constants';
 
 export default function ServicesPage() {
     return (
@@ -9,7 +9,7 @@ export default function ServicesPage() {
                 <div className="flex flex-col py-4 mb-4">
                     <img
                         className='rounded'
-                        src="https://img1.wsimg.com/isteam/ip/ed19a0df-c36a-4caa-a7ea-695b84cecb2c/Vertiv-Channel_Badge-Authorized_Distributor-HR.png/:/cr=t:0%25,l:5.36%25,w:89.29%25,h:100%25/rs=w:1800,h:900,cg:true" alt="Vertiv" />
+                        src={HERO[3].url} alt="Vertiv" />
                     <div className="text-center">
                         <h2 className='text-neutral-400 mt-6 text-2xl text-center mb-4'>Vertiv Distributor</h2>
                         <p className='text-neutral-500'>Orion distribute Vertiv's range of UPS and Datacenter products</p>
@@ -33,7 +33,8 @@ export default function ServicesPage() {
                 <div className="flex flex-col py-4 mb-4">
                     <img
                         className='rounded'
-                        src="https://img1.wsimg.com/isteam/stock/xVQ1A41/:/rs=w:2046,h:1023,cg:true,m/cr=w:2046,h:1023" alt="Software Licensing" />
+                        src={HERO[2].url}
+                        alt="Software Licensing" />
                     <div className="text-center">
                         <h2 className='mt-6 text-2xl text-center mb-4'>Software Licensing</h2>
                         <div className="flex flex-col gap-1">

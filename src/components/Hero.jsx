@@ -1,4 +1,3 @@
-import Partners from "./Partners";
 import { motion } from "framer-motion"
 
 const container = (delay) => ({
@@ -13,26 +12,33 @@ const container = (delay) => ({
     }
 })
 
-export default function Hero() {
+export default function Hero({ hero }) {
     return (
         <div className="flex flex-col border-b border-neutral-900 pb-4">
-            <motion.img src="https://kantata.marketing/wp-content/uploads/2021/08/consulting-firm-project-management.jpg"
-                variants={container(0)}
-                initial="hidden"
-                animate="visible"
-                className="mt-8 p-3 max-h-[600px] w-full object-cover" />
-            <motion.h1
-                variants={container(0.5)}
-                initial="hidden"
-                animate="visible"
-                className="text-xl lg:text-4xl mt-2 sm:mt-4 font-semibold text-neutral-300 text-center">EXPERIENCED, PERSONALIZED IT CONSULTING AND SUPPORT</motion.h1>
-            <motion.p
-                variants={container(1)}
-                initial="hidden"
-                animate="visible"
-                className="mt-2 text-lg lg:text-2xl  text-neutral-400 text-center">Let us build the infrastructure for your success!
-            </motion.p>
-            <Partners />
+            {hero.url && (
+                <motion.img src={hero.url}
+                    variants={container(0)}
+                    initial="hidden"
+                    animate="visible"
+                    className="mt-8 p-3 max-h-[600px] w-full object-cover" />
+            )}
+            {
+                hero.title && (
+                    <motion.h1
+                        variants={container(0.5)}
+                        initial="hidden"
+                        animate="visible"
+                        className="text-xl lg:text-4xl mt-2 sm:mt-4 font-semibold text-neutral-300 text-center">{hero.title}</motion.h1>
+                )
+            }
+            {hero.description && (
+                <motion.p
+                    variants={container(1)}
+                    initial="hidden"
+                    animate="visible"
+                    className="mt-2 text-lg lg:text-2xl  text-neutral-400 text-center">{hero.description}
+                </motion.p>
+            )}
         </div>
     )
 }
