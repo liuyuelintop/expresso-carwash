@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { CONTACT } from '../constants';
+import { CONTACT } from '../../constants';
 
 export default function ContactForm() {
     const [name, setName] = useState('');
@@ -15,7 +15,7 @@ export default function ContactForm() {
     return (
         <div className="mb-10 mx-2">
             <form className="flex flex-col gap-6" action={mailtoLink} method="post" encType="text/plain">
-                <h3 className='text-center text-xl text-neutral-300'>Let's Talk about Your IT Needs!</h3>
+                <h3 className='text-center text-lg text-neutral-300'>Let's Talk about Your IT Needs!</h3>
                 <input
                     className="p-2 rounded-md bg-neutral-700 text-neutral-400"
                     type="text"

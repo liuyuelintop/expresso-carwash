@@ -1,5 +1,5 @@
 import ServiceCard from '../components/ServiceCard'; // 假设您有一个ServiceCard组件
-import { SERVICES, HERO } from '../constants';
+import { SERVICES, SERVICES_PRODUCTS, HERO } from '../constants';
 
 export default function ServicesPage() {
     return (
@@ -38,13 +38,11 @@ export default function ServicesPage() {
                     <div className="text-center">
                         <h2 className='mt-6 text-2xl text-center mb-4'>Software Licensing</h2>
                         <div className="flex flex-col gap-1">
-                            <p className='text-neutral-500'>Orion distribute Vertiv's range of UPS and Datacenter products</p>
-                            <p className='text-neutral-500'>Alt-N MDaemon</p>
-                            <p className='text-neutral-500'>Microsoft</p>
-                            <p className='text-neutral-500'>VMware</p>
-                            <p className='text-neutral-500'>Veeam</p>
-                            <p className='text-neutral-500'>MailStore</p>
-                            <p className='text-neutral-500'>3CX</p>
+                            {SERVICES_PRODUCTS.map((product, index) => (
+                                <p
+                                    className='text-neutral-500'
+                                    key={index}>{product}</p>
+                            ))}
                         </div>
                     </div>
                 </div>

@@ -1,6 +1,6 @@
-import About from "../components/About";
+import About from "../components/home/AboutUs";
 import Hero from "../components/Hero";
-import Partners from "../components/Partners";
+import Partners from "../components/home/Partners";
 import Social from "../components/Social";
 import { HERO } from "../constants";
 

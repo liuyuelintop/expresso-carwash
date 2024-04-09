@@ -3,8 +3,8 @@ import Home from "./pages/Home"
 import Services from "./pages/Services"
 import Contact from "./pages/Contact"
 import ScrollToTop from "./components/ScrollToTop"
-import Header from "./components/Header"
 import Footer from "./components/Footer"
+import Header from "./components/navigation/Header"
 
 function App() {
 
@@ -13,7 +13,7 @@ function App() {
       <div className="fixed top-0 -z-10 h-full w-full ">
         <div className="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
       </div>
-      <div className="container mx-auto px-8">
+      <div className="container mx-auto ">
         <BrowserRouter>
           <ScrollToTop />
           <Header />

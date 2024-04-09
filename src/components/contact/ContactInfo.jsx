@@ -1,5 +1,5 @@
 // ContactInfo.jsx
-import { CONTACT } from '../constants';
+import { CONTACT } from '../../constants';
 import OpenHours from './OpenHours';
 
 const ContactInfo = () => (

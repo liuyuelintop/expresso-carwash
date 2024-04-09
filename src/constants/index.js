@@ -80,3 +80,12 @@ export const HERO = [
     }
 ];
 
+export const SERVICES_PRODUCTS = [
+    "Orion distribute Vertiv's range of UPS and Datacenter products",
+    "Alt-N MDaemon",
+    "Microsoft",
+    "VMware",
+    "Veeam",
+    "MailStore",
+    "3CX",
+];

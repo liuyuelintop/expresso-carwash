@@ -1,4 +1,4 @@
-import { PARTNERS } from "../constants"
+import { PARTNERS } from "../../constants"
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({

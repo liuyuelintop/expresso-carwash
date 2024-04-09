@@ -1,7 +1,7 @@
-import { ABOUT_US } from "../constants";
+import { ABOUT_US } from "../../constants";
 import { motion } from "framer-motion"
 
-export default function About() {
+export default function AboutUs() {
     return (
         <div className="border-b border-neutral-900 mt-6 pb-4">
             <div className="max-w-6xl mx-auto">
