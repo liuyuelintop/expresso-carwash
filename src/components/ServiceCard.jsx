@@ -1,6 +1,11 @@
-export default function ServiceCard({ title, description, imageUrl, imageAlt }) {
+import { motion } from "framer-motion"
+export default function ServiceCard({ title, description, imageUrl, imageAlt, cardMotion }) {
     return (
-        <div className="flex flex-col mb-10">
+        <motion.div
+            whileInView={cardMotion.whileInView}
+            initial={cardMotion.initial}
+            transition={cardMotion.transition}
+            className="flex flex-col mb-10">
             <div className>
                 <img className="rounded-lg mb-6 lg:mb-0 w-full h-auto" src={imageUrl} alt={imageAlt} />
             </div>
@@ -8,6 +13,6 @@ export default function ServiceCard({ title, description, imageUrl, imageAlt }) 
                 <h2 className="text-neutral-400 text-center text-2xl mb-4">{title}</h2>
                 <p className="text-neutral-500 text-center">{description}</p>
             </div>
-        </div>
+        </motion.div>
     );
 }

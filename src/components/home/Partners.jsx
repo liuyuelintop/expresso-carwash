@@ -33,7 +33,7 @@ export default function Partners() {
                         variants={iconVariants(partner.duration)}
                         initial="initial"
                         animate="animate"
-                        className="rounded-2xl border-2 border-neutral-800 p-4">
+                        className="rounded-2xl  p-4">
                         <img
 
                             className="rounded"

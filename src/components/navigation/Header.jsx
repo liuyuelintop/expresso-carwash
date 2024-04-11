@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Nav from './Nav';
 import { MdMenu } from 'react-icons/md';
 import HeaderIcon from './HeaderIcon';
+import { COMPANY_NAME } from '../../constants';
 
 export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,8 +17,8 @@ export default function Header() {
             <div className='flex justify-between items-center max-w-6xl mx-auto p-4'>
                 {/* Branding */}
                 <HeaderIcon
-                    company={'Expresso'}
-                    business={'Consulting'}
+                    firstWord={COMPANY_NAME.firstWord}
+                    secondWord={COMPANY_NAME.secondWord}
                 />
 
                 {/* Navigation for larger screens */}

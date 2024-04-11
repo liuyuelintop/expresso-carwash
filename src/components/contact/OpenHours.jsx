@@ -23,9 +23,9 @@ export default function OpenHours() {
             {/* The container for the header and the chevron */}
             <div className="flex justify-between items-center cursor-pointer" onClick={() => setIsOpen(!isOpen)}>
                 {!isOpen && (
-                    <p className="text-xl">
+                    <p className="text-sm">
                         Today
-                        <span className={`ml-2 text-xl font-semibold ${todayHours !== 'Closed' ? 'text-cyan-500' : 'text-red-500'}`}>
+                        <span className={`ml-2 text-sm font-semibold ${todayHours !== 'Closed' ? 'text-cyan-500' : 'text-red-500'}`}>
                             {todayHours}
                         </span>
                     </p>

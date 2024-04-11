@@ -2,12 +2,10 @@
 import ContactForm from '../components/contact/ContactForm';
 import ContactInfo from '../components/contact/ContactInfo';
 import Hero from '../components/Hero';
-import MapSection from '../components/contact/MapSection';
 import Policy from '../components/Policy';
-import { CONTACT, HERO } from '../constants';
+import { HERO } from '../constants';
 
 export default function Contact() {
-    const position = CONTACT.position;
 
     return (
         <div className="text-white p-8 flex flex-col justify-center items-center min-h-screen">
@@ -17,7 +15,6 @@ export default function Contact() {
                 <ContactForm />
                 <Policy />
                 <ContactInfo />
-                <MapSection position={position} />
             </div>
         </div>
     );

@@ -14,7 +14,7 @@ const container = (delay) => ({
 
 export default function Hero({ hero }) {
     return (
-        <div className="flex flex-col border-b border-neutral-900 pb-4">
+        <div className="flex flex-col  mt-10 pb-4">
             {hero.url && (
                 <motion.img src={hero.url}
                     variants={container(0)}
@@ -28,7 +28,7 @@ export default function Hero({ hero }) {
                         variants={container(0.5)}
                         initial="hidden"
                         animate="visible"
-                        className="text-xl lg:text-4xl mt-2 sm:mt-4 font-semibold text-neutral-300 text-center">{hero.title}</motion.h1>
+                        className="text-xl lg:text-2xl mt-2 sm:mt-4  text-neutral-300 text-center">{hero.title}</motion.h1>
                 )
             }
             {hero.description && (
